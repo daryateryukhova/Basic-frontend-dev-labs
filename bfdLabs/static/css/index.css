@@ -1,0 +1,9 @@
+@import "base/reset.css";
+@import "base/layout.css";
+
+@import "parts/header.css";
+@import "parts/now-playing.css";
+@import "parts/trailers.css";
+@import "parts/info-block.css";
+@import "parts/movies-block.css";
+@import "parts/footer.css";

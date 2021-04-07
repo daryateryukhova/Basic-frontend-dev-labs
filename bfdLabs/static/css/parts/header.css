@@ -1,0 +1,79 @@
+.header {
+    padding: 0 20px;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__square {
+    height: 100%;
+    width: 110px;
+    background-color: transparent;
+}
+
+.header > .header__square {
+    transition: all 0.4s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+    .header:hover > .header__square {
+        background-color: #EA4737;
+        transition: all 0.4s ease-in-out;
+    }
+}
+
+.header__search {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.header__left-block {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 105px;
+    align-items: center;
+    height: 100%;
+}
+
+.header__user-avatar-wrapper {
+    position: relative;
+    display: flex;
+    pointer-events: auto;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+}
+
+.header__user-avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 42px;
+    width: 42px;
+}
+
+.header__notification-badge {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    right: -3px;
+    top: -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00C853;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.header__notification-badge-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.0988451);
+}
