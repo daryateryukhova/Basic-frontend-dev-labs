@@ -1,0 +1,138 @@
+.footer {
+    padding: 18px 11px 11px;
+}
+
+.footer__info-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 31px;
+}
+
+.footer__others-app {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 0 422px;
+    padding-top: 38.4px;
+    padding-right: 31px;
+}
+
+.footer__social-app {
+    flex: 0 0 33%;
+    padding-right: 9px;
+    height: 38px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.footer__social {
+    padding-top: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 228px;
+    align-content: flex-start;
+    padding-right: 26px;
+    
+}
+
+.footer__social-logo {
+    margin-right: 15px;
+    margin-bottom: 14px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.footer__flickr {
+    flex: 1 0 228px;
+    padding-top: 38px;
+    padding-right: 26px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.footer__flickr-image {
+    margin-right: 3px;
+    margin-bottom: 3px;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 871px) {
+    .footer__others-app {
+        padding-right: 0;
+        flex: 0 0 100%;
+    }
+
+    .footer__social-app {
+        background-position: center;
+    }
+
+    .footer__flickr {
+        padding-right: 0;
+        justify-content: center;
+    }
+
+    .footer__social {
+        padding-right: 0;
+        justify-content: center;
+    }
+}
+
+.footer__links {
+    flex: 1 0 23vw;
+    height: 203px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        display: none;
+    }
+}
+
+.footer__credits-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    height: fit-content;
+}
+
+@media screen and (max-width: 767px) {
+    .footer__credits-block {
+        padding-left: 0;
+    }
+}
+
+.footer__amazon-logo {
+    display: block;
+    height: 22px;
+    flex: 0 1 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    pointer-events: auto;
+    cursor: pointer;   
+}
+
+.footer__copyright {
+    text-align: right;
+    height: 100%;
+    flex: 0 1 210px;
+    font-size: 13px;
+    line-height: 1.6154;
+}
+
+.footer__copyright-text {
+    display: block;
+    color: #4A90E2
+}
+
+.footer__copyright-years {
+    color: #000000;
+}
+
