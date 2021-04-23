@@ -1,0 +1,116 @@
+.info-block {
+    padding: 0 10%;
+    margin-bottom: 70px;
+}
+
+.info-block {
+    padding: 0 10%;
+    margin-bottom: 70px;
+}
+
+.info-block__title {
+    font-size: 28px;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info-block__title.info-block__title_big {
+    font-size: 35px;
+}
+
+.info-block__images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-block__image {
+    flex: 0 0 150px;
+    max-width: 150px;
+    object-fit: cover;
+    margin: 0 5px 5px 0;
+}
+
+.info-block__plans {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.info-block__plan {
+    flex: 0 0 33.33333%;
+    padding: 25px 0;
+}
+
+.info-block__plan.info-block__plan_center {
+    padding: 0;
+}
+
+.info-block__plan-info {
+    border: 1px solid black;
+    padding: 25px 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .info-block__plans {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: auto;
+    }
+    
+    .info-block__plan {
+        flex: 0 0 100%;
+        padding: 0;
+        height: calc(100% + 35px);
+        margin-bottom: 20px;
+    }
+    
+    .info-block__plan-info {
+        border: 1px solid black;
+        padding: 25px 15px 10px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+}
+
+.info-block__plan-title {
+    display: block;
+    font-size: 23px;
+}
+
+.info-block__plan-text {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 23px ;
+}
+
+.info-block__plan-price {
+    display: block;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.info-block__plan-button {
+    background-color: white;
+    border-style: 1px;
+    border-color: black;
+    width: 85%;
+    height: 50px;
+    font-family:"Comic Sans MS";
+    font-size: 17px;
+}

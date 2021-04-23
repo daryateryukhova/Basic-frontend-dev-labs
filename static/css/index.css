@@ -1,0 +1,6 @@
+@import "base/reset.css";
+
+@import "parts/header.css";
+@import "parts/offer.css";
+@import "parts/info-block.css";
+@import "parts/footer.css";

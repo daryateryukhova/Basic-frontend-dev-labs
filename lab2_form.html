@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Терюхова Дарья Дмитриевна</title>
+</head>
+<body>
+    <form style="width: fit-content;">
+        <label for="IdentificationNumber" style="display: block;">Identification number:</label>
+        <input type="text" style="display: block;" id="IdentificationNumber">
+        <label for="LegalName" style="display: block;">Legal Name:</label>
+        <input type="text" size="82" style="display: block;" id="LegalName">
+        <label for="Address1" style="display: block;">Address 1:</label>
+        <input type="text" size="82" style="display: block;" id="Address1">
+        <label for="Address2" style="display: block;">Address 2:</label>
+        <input type="text" size="82" style="display: block;" id="Address2">
+        <div class="location">
+            <div class="city" style="display: inline-block;">
+                <label for="City" style="display: block;">City:</label>
+                <input type="text" size="20" style="display: block;" id="City">
+            </div>
+            <div class="state" style="display: inline-block;">
+                <label for="State" style="display: block;">State:</label>
+                <input type="text" size="20" style="display: block;" id="State">
+            </div>
+            <div class="zip" style="display: inline-block;">
+                <label for="Zip" style="display: block;">Zip:</label>
+                <input type="text" size="20" style="display: block;" id="Zip">
+            </div>
+            <div class="country" style="display: inline-block;">
+                <label for="Country" style="display: block;">Country:</label>
+                <select name="text" style="display: block;" id="Country">
+                    <option>
+                        England
+                    </option>
+                    <option>
+                        USA
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div class="contacts" style="margin-bottom: 10px;">
+            <div class="phone" style="display: inline-block;">
+                <label for="Phone" style="display: block;">Phone:</label>
+                <input type="text" size="20" style="display: block;" id="Phone">
+            </div>
+            <div class="email" style="display: inline-block;">
+                <label for="Phone" style="display: block;">Email:</label>
+                <input type="email" size="57" style="display: block;" id="Email">
+            </div>
+        </div>
+        <div class="buttons-wrapper" style="text-align: right;">
+            <button type="reset">Reset </button>
+            <button type="submit"> Submit </button>
+        </div>
+    </form>
+</body>
+</html>
