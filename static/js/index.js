@@ -1,6 +1,6 @@
 function showInfoMessage() {
   let page = document.querySelector("[data-is-set-user]");
-  if (page.dataset.state) {
+  if (page.dataset.isSetUser) {
     Swal.fire(
       "Я это сделал, а " +
         names +
