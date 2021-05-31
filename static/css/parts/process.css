@@ -1,0 +1,15 @@
+.process {
+    padding: 0 140px;
+}
+
+@media screen and (max-width: 768px) {
+    .process {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .process {
+        padding: 0 35px;
+    }
+}

@@ -1,0 +1,14 @@
+.layout {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    min-height: 100%;
+    flex-direction: column;
+    background: #FFFFFF;
+}

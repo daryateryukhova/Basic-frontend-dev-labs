@@ -1,0 +1,59 @@
+.button {
+    font-family:"Helvetica Neue", sans-serif;
+    font-style: normal;
+    border-radius: 23px;
+    background: #B57AD2;
+    color: white;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    padding: 0 27px;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.25;
+    width: 160px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .button {
+        cursor: pointer;
+    }
+}
+
+.button_opacity {
+    border: 1px solid #B57AD2;
+    box-sizing: border-box;
+    background: none;
+    transition: all 0.4s ease-in-out;
+    color: #B57AD2;
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .button_opacity:hover {
+        background-color: #B57AD2;
+        transition: all 0.4s ease-in-out;
+        color: white;
+        border-color: #B57AD2;
+    }
+}
