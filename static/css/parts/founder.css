@@ -1,0 +1,128 @@
+.founder {
+    padding: 117px 140px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 244, 229, 0.0001) 0%, rgba(181, 122, 210, 0.776388) 136.98%), linear-gradient(179.61deg, #F9F4FC 0.33%, rgba(255, 244, 229, 0.0001) 99.67%);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+    .founder {
+        padding: 0 70px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .founder {
+        padding: 0 35px;
+    }
+}
+
+.founder__photo {
+    height: 538px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 1 35%;
+}
+
+@media screen and (max-width: 768px) {
+    .founder__photo {
+        flex: 0 0 100%;
+        height: 338px;
+        background-position: center;
+    }
+}
+
+.founder__info {
+    flex: 0 1 65%;
+    padding: 32px 0 32px 220px;
+}
+
+@media screen and (max-width: 768px) {
+    .founder__info {
+        flex: 0 0 100%;
+        padding: 32px 0 32px;
+    }
+}
+
+.founder__title {
+    display: block;
+    font-family:"Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    letter-spacing: -0.5px;
+    margin-bottom: 40px;
+    color: #2B292D;
+}
+
+.founder__sub-title {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.416667;
+    margin-bottom: 80px;
+    color: #2B292D;
+}
+
+.founder__founder-name {
+    display: block;
+    font-family:"Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.375;
+    margin-bottom: 15px;
+    color: #2B292D;
+}
+
+.founder__founder-info {
+    display: block;
+    font-family:"Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.375;
+
+    color: #2B292D;
+}
+
+@media screen and (max-width: 768px) {
+    .founder__title {
+        font-size: 36px;
+    }
+    
+    .founder__sub-title {
+        font-size: 18px;
+    }
+    
+    .founder__founder-name {
+        font-size: 14px;
+    }
+    
+    .founder__founder-info {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .founder__title {
+        font-size: 24px;
+    }
+    
+    .founder__sub-title {
+        font-size: 14px;
+    }
+    
+    .founder__founder-name {
+        font-size: 12px;
+    }
+    
+    .founder__founder-info {
+        font-size: 12px;
+    }
+}

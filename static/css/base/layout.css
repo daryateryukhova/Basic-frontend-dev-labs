@@ -12,3 +12,7 @@
     flex-direction: column;
     background: #FFFFFF;
 }
+
+.fixed {
+    overflow: hidden;
+}

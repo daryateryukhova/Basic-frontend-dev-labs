@@ -56,6 +56,10 @@
     justify-content: center;
 }
 
+.nav-menu__button {
+    max-width: 160px;
+}
+
 .menu.open {
     opacity: 1;
     bottom: 0;

@@ -13,3 +13,24 @@
         padding: 0 35px;
     }
 }
+
+.process__stages-wrapper {
+    padding: 44px 110px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .process__stages-wrapper {
+        padding: 22px 0 0;
+    }
+}
+
+.process__image {
+    height: 32vw;
+    background-position: top;
+}
+
+@media screen and (max-width: 768px) {
+    .process__image {
+        height: 40vw;
+    }
+}
